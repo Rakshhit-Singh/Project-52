@@ -1,0 +1,161 @@
+a{
+    text-decoration: none;
+}
+img {
+    border: solid;
+    border-color:#ffffff;
+}
+
+body{
+    margin: 0px;
+    background-color: #808080;
+
+    font-family: cursive;
+    color: #f5f5f5;
+}
+.header {
+    display: flex;
+    color: #f5f5f5;
+    background-color: #000000;
+    justify-content: space-between;
+}
+
+.pigeon {
+    border: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color: #000000;
+}    
+
+.teddy-bear {
+    border: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color: #000000;
+}
+
+.panda {
+    border: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color: #000000;
+}
+
+.intro {
+    background-color: #000000;
+}
+
+.tutorials{
+    display: flex;
+    flex-wrap:wrap;
+    color: #ffffff;
+    justify-content: space-evenly;
+
+}
+
+.media{
+    display: flex;
+    flex-wrap:wrap;
+    color: #ffffff;
+    justify-content: space-evenly;
+
+}
+
+a:link{
+    color:white;
+    
+}
+    
+a:visited{
+    color:white;
+
+}
+
+img{
+    float:left;
+    
+    }
+
+.pigeon img{
+    position:relative;
+
+}
+
+.pigeon h3{
+
+    position:absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-180%,-90%);
+
+    opacity: 0;
+}
+
+.pigeon:hover h3{
+opacity:1;
+}
+
+.pigeon:hover img{
+    opacity: 0.2;
+    transform: scale(1.2);
+
+}
+
+.teddy-bear img{
+    position:relative;
+
+}
+
+.teddy-bear h3{
+
+    position:absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-180%,-90%);
+
+    opacity: 0;
+}
+
+.teddy-bear:hover h3{
+opacity:1;
+}
+
+.teddy-bear:hover img{
+    opacity: 0.2;
+    transform: scale(1.2);
+
+}
+
+.panda img{
+    position:relative;
+
+}
+
+.panda h3{
+
+    position:absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-180%,-90%);
+
+    opacity: 0;
+}
+
+.panda:hover h3{
+opacity:1;
+}
+
+.panda:hover img{
+    opacity: 0.2;
+    transform: scale(1.2);
+
+}
